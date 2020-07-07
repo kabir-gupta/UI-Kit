@@ -1,0 +1,74 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">');
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button-text.css');
+@import url('components/gradient-button.css');
+@import url('components/banner.css');
+@import url("components/card.css");
+
+* {
+ margin:0px;
+ padding:0px;
+}
+
+body {
+ font-family: 'Lato', sans-serif;
+ font-size: 20px;
+}
+
+
+h1, h2, h3 {
+ font-family: 'Roboto', serif;
+}
+
+h1 {
+ font-size: 40px;
+ font-family: Courier;
+}
+
+a {
+ text-decoration: none;
+}
+.link{
+	border:black 2px solid;
+	margin: 100px 550px 20px 550px;
+	border-radius: 1000px;
+	background-color: green;
+}
+#avatar{
+	margin: 20px 200px 20px 350px;
+	border: rgba(0, 0, 0, 0.1) solid 3px;
+	border-radius: 100px;
+}
+#Button1{
+	margin: 20px 200px 20px 350px;
+	border: rgba(0, 0, 0, 0.1) solid 3px;
+	border-radius: 100px;
+}
+
+#Button2{
+	margin: 20px 200px 20px 350px;
+	border: rgba(0, 0, 0, 0.1) solid 3px;
+	border-radius: 100px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 10px;
+}
+.list-inline li {
+  display: inline-block;
+}

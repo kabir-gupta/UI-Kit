@@ -1,0 +1,45 @@
+.card-white {
+  background-color: white;
+  justify-content: center;
+  width: 250px;
+  padding: 10px;
+  border-radius: 2;
+}
+
+.card-white-image {
+  background: url("https://picsum.photos/250/200");
+  height: 200px;
+  width: 250px;
+  /*margin-bottom: 10px;*/
+  margin: 0 0 10px 0;
+  border-radius: 10px;
+}
+
+.card-props {
+  color: grey;
+}
+
+.card-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-user {
+  color: grey;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+.card-user a{
+    color: grey;
+    margin-left: 5px;
+}
